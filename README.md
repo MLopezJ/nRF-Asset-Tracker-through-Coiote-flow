@@ -33,7 +33,7 @@ Even when the modules refers to the same data definition, the name of their vari
 This integration should provide to the `nRF Asset Tracker module` the following values in order to be successful:
 
 {
-   [Global Navigation Satellite System (GNSS)]([https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/edit/saga/README.md#gnss](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#gnss)),
+   [Global Navigation Satellite System (GNSS)](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#gnss),
    Config,
    Batery,
    Enviromental
