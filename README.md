@@ -35,7 +35,7 @@ This integration should provide to the `nRF Asset Tracker module` the following 
 {
    [Global Navigation Satellite System (GNSS)](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#gnss),
    [Config](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#config),
-   Batery,
+   [Batery](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#batery),
    Enviromental,
    Device,
    Roaming Information
@@ -93,3 +93,15 @@ This integration should provide to the `nRF Asset Tracker module` the following 
 | accito   | **????**              | **????**       | **????**   | **????**     | 
 | nod      | **????**              | **????**       | **????**   | **????**     | 
 
+### Batery
+| Field | Description | Type | Minimum | Required |
+|-------|-------------|------|---------|----------|
+| v     | Battery reading read by the modem | integer | 1 | Yes |
+| ts    | Timestamp as Unix epoch with millisecond precision (UTC) | integer | 1234567890123 | Yes |
+
+
+#### nRF Asset Tracker -> LwM2M def
+| Field | LwM2M converter lib | coiote azure | firmware | LwM2M def. |
+|-------|-------------|------|---------|----------|
+| v     | **????** | **????** | **????** | **????** |
+| ts    | **????** | **????** | **????** | **????** |
