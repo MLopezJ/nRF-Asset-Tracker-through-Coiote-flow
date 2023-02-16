@@ -37,7 +37,7 @@ This integration should provide to the `nRF Asset Tracker module` the following 
    [Config](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#config),
    [Batery](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#batery),
    [Environment](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#environment),
-   Device,
+   [Device](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#device),
    Roaming Information
 }
 
@@ -123,5 +123,20 @@ This integration should provide to the `nRF Asset Tracker module` the following 
 | atmp | **????** | **????** | **????** | **????** |
 
 
+### Device
 
+| Field | Description | Type | Min Length | Max Length | Examples | Required |
+| ----- | ----------- | ---- | ---------- | ---------- | -------- | -------- |
+| imei  | Board IMEI  | string | 15 | 16 | ["352656106111232"] | Yes |
+| iccid | SIM ICCID | string | 19 | 20 | ["89450421180216216095"] | Yes |
+| modV  | Modem Firmware Version | string | 1 |  | ["mfw_nrf9160_1.0.0"] | Yes |
+| brdV  | Board Version | string | 1 |  | ["thingy91_nrf9160"] | Yes |
+
+#####
+| Field | LwM2M converter lib | coiote azure | firmware | LwM2M def. |
+| ----- | ------------------ | ------------ | -------- | ---------- |
+| imei  |  3.2          | 3.0.2     | LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID | 3.2   |
+| iccid | **????**           | **????**     | **????** | **????**   |
+| modV  | **????**           | **????**     | **????** | **????**   |
+| brdV  | **????**           | **????**     | **????** | **????**   |
 
