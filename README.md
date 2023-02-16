@@ -55,12 +55,13 @@ This integration should provide to the `nRF Asset Tracker module` the following 
 ##### nRF Asset Tracker -> LwM2M def
 
 
-| nRF Asset Tracker | LwM2M | LwM2M converter lib | coiote azure | firmware | Required |
-|-------|-------------|------|---------|---------|----------|
-| lng   | 6.1   | 6.1  | "6.0.1"    | LONGITUDE_RID     | Yes      |
-| lat   | 6.0    | 6.0 | "6.0.1"     | LATITUDE_RID      | Yes      |
-| **acc**   | **???????** | **???????** | **???????**    |   **???????**     | **No**       |
-| alt   |  6.2 | 6.2 |   "6.0.2"    |    ALTITUDE_RID     | Yes      |
-| spd   | 6.6 | 6.6 | "6.0.6"    |     SPEED_RID    | Yes      |
-| **hdg**   | **???????** | **???????** | **???????**   | **???????**     | **Yes**      |
+| nRF Asset Tracker | LwM2M converter lib | coiote azure | firmware | LwM2M def | 
+|-------|------|---------|---------|-------------|
+| lng   | 6.1  | "6.0.1" | LONGITUDE_RID | 6.1 |
+| lat   | 6.0  | "6.0.1" | LATITUDE_RID  | 6.0 |
+| acc   | **???????** | **???????** | **???????** | **???????** |
+| alt   | 6.2  | "6.0.2" | ALTITUDE_RID  | 6.2 |
+| spd   | 6.6  | "6.0.6" | SPEED_RID     | 6.6 |
+| hdg   | **???????** | **???????** | **???????** | **???????** |
+
 
