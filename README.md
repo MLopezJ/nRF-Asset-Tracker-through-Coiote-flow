@@ -78,3 +78,18 @@ This integration should provide to the `nRF Asset Tracker module` the following 
 | accith   | Accelerometer inactivity threshold (in m/s²): Maximum absolute value for an accelerometer reading to be considered stillness. Must be smaller than the accelerometer activity threshold. | number | 0 | 78.4532 | 5.2 | Yes |
 | accito   | Accelerometer inactivity timeout (in s): Hysteresis timeout for stillness detection. Must be smaller than the movement resolution. | number | 0.08 | 5242.88 | 1.7 | Yes |
 | nod      | List of modules which should be disabled when sampling data. | array of strings | | | ["gnss"], ["ncell"], ["gnss", "ncell"] | Yes |
+
+#### nRF Asset Tracker -> LwM2M def
+
+| Property | LwM2M converter lib | coiote azure | firmware | LwM2M def. |
+|----------|---------------------|--------------|----------|------------|
+| act      | **????**              | **????**       | **????**   | **????**     | 
+| actwt    | **????**              | **????**       | **????**   | **????**     | 
+| mvres    | **????**              | **????**       | **????**   | **????**     | 
+| mvt      | **????**              | **????**       | **????**   | **????**     | 
+| loct     | **????**              | **????**       | **????**   | **????**     | 
+| accath   | **????**              | **????**       | **????**   | **????**     | 
+| accith   | **????**              | **????**       | **????**   | **????**     | 
+| accito   | **????**              | **????**       | **????**   | **????**     | 
+| nod      | **????**              | **????**       | **????**   | **????**     | 
+
