@@ -36,7 +36,7 @@ This integration should provide to the `nRF Asset Tracker module` the following 
    [Global Navigation Satellite System (GNSS)](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#gnss),
    [Config](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#config),
    [Batery](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#batery),
-   Enviromental,
+   [Environment](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#environment),
    Device,
    Roaming Information
 }
@@ -105,3 +105,22 @@ This integration should provide to the `nRF Asset Tracker module` the following 
 |-------|-------------|------|---------|----------|
 | v     | **????** | **????** | **????** | **????** |
 | ts    | **????** | **????** | **????** | **????** |
+
+
+### Environment
+| Field | Description | Type | Minimum | Maximum | Required |
+|-------|-------------|------|---------|---------|----------|
+| temp  | Temperature reading from external sensor | number |         |         | Yes      |
+| hum   | Humidity reading from external sensor | number | 1       | 100     | Yes      |
+| atmp  | Atmospheric pressure reading from external sensor in kPa | number | 0 | | Yes |
+
+
+#### nRF Asset Tracker -> LwM2M def
+| Field | LwM2M converter lib | coiote azure | firmware | LwM2M def. |
+|-------|-------------|------|---------|---------|
+| temp  | **????** | **????** | **????** | **????** |   
+| hum   | **????** | **????** | **????** | **????** |
+| atmp | **????** | **????** | **????** | **????** |
+
+
+
