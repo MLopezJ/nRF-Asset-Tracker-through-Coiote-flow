@@ -88,8 +88,8 @@ This integration should provide to the `nRF Asset Tracker module` the [following
 | mvres    | **????**    | 50009.0.3       | CONFIGURATION_OBJECT_ID, 0, MOVEMENT_RESOLUTION_RID   | **????**     | 
 | mvt      | **????**      | 50009.0.4       | CONFIGURATION_OBJECT_ID, 0, MOVEMENT_TIMEOUT_RID  | **????**     | 
 | loct     | **????**      | 50009.0.1       | CONFIGURATION_OBJECT_ID, 0, LOCATION_TIMEOUT_RID   | **????**     | 
-| accath   | **????**     | 50009.0.        |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_ACT_THRESHOLD_RID   | **????**     | 
-| accith   | **????**    | 50009.0.5       |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_THRESHOLD_RID | **????**     | 
+| accath   | **????**     | 50009.0.5        |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_ACT_THRESHOLD_RID   | **????**     | 
+| accith   | **????**    | 50009.0.8       |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_THRESHOLD_RID | **????**     | 
 | accito   | **????**      | 50009.0.9        |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_TIMEOUT_RID   | **????**     | 
 | nod      | **????**      | **????**       | **????**   | **????**     | 
 
