@@ -35,7 +35,7 @@ This integration should provide to the `nRF Asset Tracker module` the [following
 {
    [Global Navigation Satellite System (GNSS)](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#gnss),
    [Config](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#config),
-   [Batery](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#batery),
+   [Battery](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#batery),
    [Environment](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#environment),
    [Device](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#device),
    [Roaming Information](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#roaming)
@@ -93,7 +93,7 @@ This integration should provide to the `nRF Asset Tracker module` the [following
 | accito   | **????**      | **????**       |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_TIMEOUT_RID   | **????**     | 
 | nod      | **????**      | **????**       | **????**   | **????**     | 
 
-### Batery
+### Battery
 | Field | Description | Type | Minimum | Required |
 |-------|-------------|------|---------|----------|
 | v     | Battery reading read by the modem | integer | 1 | Yes |
@@ -103,7 +103,7 @@ This integration should provide to the `nRF Asset Tracker module` the [following
 #### nRF Asset Tracker -> LwM2M def
 | Field | LwM2M converter lib | coiote azure | firmware | LwM2M def. |
 |-------|-------------|------|---------|----------|
-| v     | **????** | **????** | **????** | **????** |
+| v     | 3.7 | 3.0.7 | LWM2M_OBJECT_DEVICE_ID, 0, POWER_SOURCE_VOLTAGE_RID | 3.7 |
 | ts    | **????** | **????** | **????** | **????** |
 
 
