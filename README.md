@@ -30,7 +30,7 @@ Even when the modules refers to the same data definition, the name of their vari
 
 
 ### nRF Asset Tracker data
-This integration should provide to the `nRF Asset Tracker module` the following values in order to be successful:
+This integration should provide to the `nRF Asset Tracker module` the [following values](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json) in order to be successful:
 
 {
    [Global Navigation Satellite System (GNSS)](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/README.md#gnss),
