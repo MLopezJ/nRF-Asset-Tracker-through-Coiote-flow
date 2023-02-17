@@ -10,25 +10,13 @@ Every one of the following modules speak LwM2M but they do in different dialect
 
 ### Links
 
-- LwM2M
-- Thingy:91
-- Coiote
-- Azure
-- nRF Asset Tracker
+- [LwM2M](https://github.com/OpenMobileAlliance/lwm2m-registry)
+- [Thingy:91](https://github.com/NordicSemiconductor/asset-tracker-cloud-firmware-azure)
+- [Coiote Azure](https://iotdevzone.avsystem.com/docs/Demo_Projects/Tracking_tutorial/)
+- [LwM2M converter lib](https://github.com/MLopezJ/asset-tracker-cloud-coiote-azure-converter-js)
+- [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json)
 
 ## DATA
-
-Even when the modules refers to the same data definition, the name of their variables change.
-
-- LwM2M definiton
-- Firmware
-- Coiote format
-- LwM2M Equivalent
-- nRF Asset Tracker format
-
-![IMG_7649](https://user-images.githubusercontent.com/8351865/219426657-b7d5a18e-c64c-471b-8b2e-0000259486b4.jpg)
-
-### nRF Asset Tracker data
 
 As been said, when data go through the module flow its change its form although refers to the same LwM2M definition.
 
@@ -38,7 +26,9 @@ As been said, when data go through the module flow its change its form although 
 
 In the last table its shown how one value is defined as `3.2` in LwM2M, is treated as `LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID` and at the end being assiged to `imei` var.
 
-The following json provide a flow transition for all the values from [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json). `Key` represent the variable name in `nRF Asset Tracker` module, `value` in `firmware` module and `comment` in `LwM2M definition`
+The following json provide a flow transition for all the values from [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json). 
+
+`Key` represent the variable name in `nRF Asset Tracker` module, `value` in `firmware` module and `comment` in `LwM2M definition`.
 
 ```javascript
 const dataTransiccion = {
