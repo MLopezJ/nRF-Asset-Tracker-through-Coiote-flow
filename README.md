@@ -83,14 +83,14 @@ This integration should provide to the `nRF Asset Tracker module` the [following
 
 | Property | LwM2M converter lib | coiote azure | firmware | LwM2M def. |
 |----------|---------------------|--------------|----------|------------|
-| act      | **????**   | **????**       | CONFIGURATION_OBJECT_ID, 0, PASSIVE_MODE_RID   | **????**     | 
-| actwt    | **????**     | **????**       | CONFIGURATION_OBJECT_ID, 0, ACTIVE_WAIT_TIMEOUT_RID   | **????**     | 
-| mvres    | **????**    | **????**       | CONFIGURATION_OBJECT_ID, 0, MOVEMENT_RESOLUTION_RID   | **????**     | 
-| mvt      | **????**      | **????**       | CONFIGURATION_OBJECT_ID, 0, MOVEMENT_TIMEOUT_RID  | **????**     | 
-| loct     | **????**      | **????**       | CONFIGURATION_OBJECT_ID, 0, LOCATION_TIMEOUT_RID   | **????**     | 
-| accath   | **????**     | **????**       |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_ACT_THRESHOLD_RID   | **????**     | 
-| accith   | **????**    | **????**       |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_THRESHOLD_RID | **????**     | 
-| accito   | **????**      | **????**       |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_TIMEOUT_RID   | **????**     | 
+| act      | **????**   | 50009.0.0       | CONFIGURATION_OBJECT_ID, 0, PASSIVE_MODE_RID   | **????**     | 
+| actwt    | **????**     | 50009.0.2       | CONFIGURATION_OBJECT_ID, 0, ACTIVE_WAIT_TIMEOUT_RID   | **????**     | 
+| mvres    | **????**    | 50009.0.3       | CONFIGURATION_OBJECT_ID, 0, MOVEMENT_RESOLUTION_RID   | **????**     | 
+| mvt      | **????**      | 50009.0.4       | CONFIGURATION_OBJECT_ID, 0, MOVEMENT_TIMEOUT_RID  | **????**     | 
+| loct     | **????**      | 50009.0.1       | CONFIGURATION_OBJECT_ID, 0, LOCATION_TIMEOUT_RID   | **????**     | 
+| accath   | **????**     | 50009.0.        |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_ACT_THRESHOLD_RID   | **????**     | 
+| accith   | **????**    | 50009.0.5       |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_THRESHOLD_RID | **????**     | 
+| accito   | **????**      | 50009.0.9        |  CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_TIMEOUT_RID   | **????**     | 
 | nod      | **????**      | **????**       | **????**   | **????**     | 
 
 ### Battery
