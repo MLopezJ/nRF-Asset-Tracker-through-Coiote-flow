@@ -91,3 +91,15 @@ const dataTransiccion = {
   },
 };
 ```
+
+## Process
+
+![IMG_7647](https://user-images.githubusercontent.com/8351865/219425836-2cc4e559-277a-4578-b148-0e164b27996d.jpg)
+
+1. Thingy:91 send data to Coiote Dashboard
+2. Coiote transform data to coiote dialect
+3. Azure receives the data 
+4. Data is transformed to [LwM2M equivalent](https://github.com/MLopezJ/asset-tracker-cloud-coiote-azure-converter-js)
+5. Result of step 4 is checked against [LwM2M types lib](https://github.com/NordicSemiconductor/lwm2m-types-js)
+6. If result of check is positive, the data is transformed to nRF Asset Tracker dialect.
+7. Result is send to web app.
