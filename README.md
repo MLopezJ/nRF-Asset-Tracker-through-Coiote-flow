@@ -11,7 +11,7 @@ Every one of the following modules speak LwM2M but they do in different "dialect
 ### Links
 
 - [LwM2M](https://github.com/OpenMobileAlliance/lwm2m-registry)
-- [Thingy:91](https://github.com/NordicSemiconductor/asset-tracker-cloud-firmware-azure)
+- [Thingy:91 (firmware)](https://github.com/NordicSemiconductor/asset-tracker-cloud-firmware-azure)
 - [Coiote Azure](https://iotdevzone.avsystem.com/docs/Demo_Projects/Tracking_tutorial/)
 - [LwM2M converter lib](https://github.com/MLopezJ/asset-tracker-cloud-coiote-azure-converter-js)
 - [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json)
@@ -24,11 +24,9 @@ As been said, when data go through the module flow its change its form although 
 | ---------- | -------------------------------------------------- | ------------ | ------------------- | ----------------- |
 | 3.2        | LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID | 3.0.2        | 3.2                 | imei              |
 
-In the last table its shown how one value is defined as `3.2` in LwM2M, is treated as `LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID` and at the end being assiged to `imei` var.
+In the last table its shown how one value is defined as `3.2` in LwM2M, which is the begining of the process, then transform to `LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID` and finishing the flow as `imei` in the nRF Asset Tracker module.
 
-The following json provide a flow transition for all the values from [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json). 
-
-`Key` represent the variable name in `nRF Asset Tracker` module, `value` in `firmware` module and `comment` in `LwM2M definition`.
+The following json provide a flow transition for all the values needed in [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json). The key of the object represent the variable name in the `nRF Asset Tracker` module, the value is its name in the `firmware` module and the comment is how the object looks like in the `LwM2M definition`.
 
 ```javascript
 const dataTransiccion = {
