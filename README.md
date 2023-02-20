@@ -28,6 +28,8 @@ In the last table its shown how one value is defined as `3.2` in LwM2M, which is
 
 The following json provide a flow transition for all the values needed in [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json). The key of the object represent the variable name in the `nRF Asset Tracker` module, the value is its name in the `firmware` module and the comment is how the object looks like in the `LwM2M definition`.
 
+> [missing values](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/src/missingValues.ts) in json format
+
 ```javascript
 const dataTransiccion = {
   cfg: {
