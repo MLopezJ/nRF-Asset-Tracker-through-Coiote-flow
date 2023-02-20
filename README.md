@@ -4,7 +4,7 @@
 
 ## Modules
 
-Every one of the following modules speak LwM2M but they do in different dialects
+Every one of the following modules speak LwM2M but they do in different "dialects"
 
 ![IMG_7647](https://user-images.githubusercontent.com/8351865/219425836-2cc4e559-277a-4578-b148-0e164b27996d.jpg)
 
