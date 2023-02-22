@@ -14,4 +14,4 @@
 | imei  | 3.2                 | 3.0.2        | LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID | 3.2        |
 | iccid | **????**            | **????**     | **????**, MODEM_ICCID                              | **????**   |
 | modV  | 3.3                 | 3.0.3        | LWM2M_OBJECT_DEVICE_ID, MODEM_FIRMWARE_VERSION     | 3.3        |
-| brdV  | 3.3                 | 3.0.0     | LWM2M_OBJECT_DEVICE_ID, 0, MANUFACTURER_RID        | 3.0   |
+| brdV  | 3.0                 | 3.0.0     | LWM2M_OBJECT_DEVICE_ID, 0, MANUFACTURER_RID        | 3.0   |
