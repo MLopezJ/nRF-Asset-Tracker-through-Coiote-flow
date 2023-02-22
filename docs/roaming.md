@@ -16,7 +16,7 @@
 | Field  | LwM2M converter lib | coiote azure   | firmware                                                                                        | LwM2M def. |
 | ------ | ------------------- | -------------- | ----------------------------------------------------------------------------------------------- | ---------- |
 | band   | **????**            | **????**       | **????**                                                                                        | **????**   |
-| nw     | **????**            | **????**       | **????**                                                                                        | **????**   |
+| nw     | 4.0            | 4.0.0       | LWM2M_OBJECT_CONNECTIVITY_MONITORING_ID, 0, NETWORK_BEARER_ID                                                                                        | 4.0  |
 | rsrp   | 4.2                 | 4.0.2          | LWM2M_OBJECT_CONNECTIVITY_MONITORING_ID,0,RSS                                                   | 4.2        |
 | area   | 4.12                | 4.0.12         | LWM2M_OBJECT_CONNECTIVITY_MONITORING_ID,0,LAC                                                   | 4.12       |
 | mccmnc | 4.10 & 4.9          | 4.0.10 & 4.0.9 | LWM2M_OBJECT_CONNECTIVITY_MONITORING_ID,0,SMCC & LWM2M_OBJECT_CONNECTIVITY_MONITORING_ID,0,SMNC | 4.10 & 4.9 |
