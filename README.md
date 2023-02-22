@@ -41,11 +41,11 @@ const dataTransiccion = {
     accath: "CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_ACT_THRESHOLD_RID", // "50009.5"
     accith: "CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_THRESHOLD_RID", // 50009.8
     accito: "CONFIGURATION_OBJECT_ID, 0, ACCELEROMETER_INACT_TIMEOUT_RID", // 50009.9
-    nod: "???????", // ***** Value is required in nRF Asset Tracker *****
+    nod: [] // @see https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/issues/2#issuecomment-1440102847
   },
   bat: {
     v: "LWM2M_OBJECT_DEVICE_ID, 0, POWER_SOURCE_VOLTAGE_RID", // 3.7
-    ts: "???????", // ***** Value is required in nRF Asset Tracker *****
+    ts: 1645072000000
   },
   env: {
     v: {
@@ -71,14 +71,14 @@ const dataTransiccion = {
       imei: "LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID", // 3.2
       iccid: "??????????, MODEM_ICCID", // ***** Value is required in nRF Asset Tracker *****
       modV: "LWM2M_OBJECT_DEVICE_ID, MODEM_FIRMWARE_VERSION", // 3.3
-      brdV: "??????????, MODEM_BOARD", // ***** Value is required in nRF Asset Tracker *****
+      brdV: LWM2M_OBJECT_DEVICE_ID, 0, MANUFACTURER_RID // 3.0
     },
     ts: 1645072000000,
   },
   roam: {
     v: {
       band: "???????", // ***** Value is required in nRF Asset Tracker *****
-      nw: "???????", // ***** Value is required in nRF Asset Tracker *****
+      nw: LWM2M_OBJECT_CONNECTIVITY_MONITORING_ID, 0, NETWORK_BEARER_ID, // 4.0
       rsrp: "LWM2M_OBJECT_CONNECTIVITY_MONITORING_ID,0,RSS", // 4.2
       area: "LWM2M_OBJECT_CONNECTIVITY_MONITORING_ID,0,LAC	", // 4.12
       mccmnc:
