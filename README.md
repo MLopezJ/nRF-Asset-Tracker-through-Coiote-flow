@@ -30,8 +30,10 @@ The following json provide a flow transition for all the values needed in [nRF A
 
 > [missing values](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/src/missingValues.ts) in json format
 
+### Data transicion
+
 ```javascript
-const dataTransiccion = {
+const dataTransicion = {
   cfg: {
     act: "CONFIGURATION_OBJECT_ID, 0, PASSIVE_MODE_RID", // 50009.0
     actwt: "CONFIGURATION_OBJECT_ID, 0, ACTIVE_WAIT_TIMEOUT_RID", // 50009.2
@@ -101,5 +103,5 @@ const dataTransiccion = {
 3. Azure receives the data 
 4. Data is transformed to [LwM2M equivalent](https://github.com/MLopezJ/asset-tracker-cloud-coiote-azure-converter-js)
 5. Result of step 4 is checked against [LwM2M types lib](https://github.com/NordicSemiconductor/lwm2m-types-js)
-6. If result of check is positive, the data is transformed to nRF Asset Tracker dialect.
+6. If result of check is positive, the data is transformed to nRF Asset Tracker dialect. (to be implemented)
 7. Result is send to web app.
