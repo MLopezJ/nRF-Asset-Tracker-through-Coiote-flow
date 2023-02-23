@@ -53,7 +53,8 @@ const dataTransicion = {
     v: {
       temp: "IPSO_OBJECT_TEMP_SENSOR_ID, 0, SENSOR_VALUE_RID", // 3303.5700
       hum: "IPSO_OBJECT_HUMIDITY_SENSOR_ID, 0, SENSOR_VALUE_RID", // 3304.5700
-      atmp: "IPSO_OBJECT_PRESSURE_ID, 0, SENSOR_VALUE_RID", //3323.5700
+      atmp: "IPSO_OBJECT_PRESSURE_ID, 0, SENSOR_VALUE_RID", //3323.5700 or 3315.5700 
+      // @see https://github.com/MLopezJ/asset-tracker-cloud-coiote-azure-converter-js/issues/24
     },
     ts: 1645072000000,
   },
