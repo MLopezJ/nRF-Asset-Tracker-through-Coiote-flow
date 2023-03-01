@@ -20,7 +20,7 @@ Every one of the following modules speak LwM2M but they do in different "dialect
 
 As been said, when data go through the module flow its change its form although refers to the same LwM2M definition.
 
-| LwM2M object. LwM2M Resource | firmware                                           | coiote azure | LwM2M converter lib | nRF Asset Tracker |
+| LwM2M Object.Resource | firmware                                           | coiote azure | LwM2M converter lib | nRF Asset Tracker |
 | ---------- | -------------------------------------------------- | ------------ | ------------------- | ----------------- |
 | 3.2        | LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID | 3.0.2        | 3.2                 | imei              |
 
