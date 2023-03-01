@@ -4,8 +4,6 @@
 
 ## Modules
 
-Every one of the following modules speak LwM2M but they do in different "dialects"
-
 ![IMG_7647](https://user-images.githubusercontent.com/8351865/219425836-2cc4e559-277a-4578-b148-0e164b27996d.jpg)
 
 ### Links
@@ -18,7 +16,7 @@ Every one of the following modules speak LwM2M but they do in different "dialect
 
 ## DATA
 
-As been said, when data go through the module flow its change its form although refers to the same LwM2M definition.
+When data go through the module flow its change its form although refers to the same LwM2M definition.
 
 | LwM2M Object.Resource | firmware                                           | coiote azure | LwM2M converter lib | nRF Asset Tracker |
 | ---------- | -------------------------------------------------- | ------------ | ------------------- | ----------------- |
