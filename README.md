@@ -22,10 +22,12 @@ When data go through the module flow its change its form although refers to the 
 | ---------- | -------------------------------------------------- | ------------ | ------------------- | ----------------- |
 | 3.2        | LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID | 3.0.2        | 3.2                 | imei              |
 
-In the last table its shown how one value is defined as `3.2` in LwM2M, which is the begining of the process, then transform to `LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID` and finishing the flow as `imei` in the nRF Asset Tracker module.
+In LwM2M the object `3` refers to `Device` and its resource `2` to the `serial number`. The firmware module uses the serial number of the device, which is the last value mentioned, but call it `LWM2M_OBJECT_DEVICE_ID, 0, DEVICE_SERIAL_NUMBER_ID`. Similar in the Coiote module, there this same value refers to `3.0.2` and in the LwM2M converter library it is `3.2`. The most drastical change is in nRF Asset Tracker, where the variable name to refers to this value as `imei`.
 
-The following json provide a flow transition for all the values needed in [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json). The key of the object represent the variable name in the `nRF Asset Tracker` module, the value is its name in the `firmware` module and the comment is how the object looks like in the `LwM2M definition`.
+Same situation happens for the rest of values of the [nRF Asset Tracker](https://github.com/NordicSemiconductor/asset-tracker-cloud-docs/blob/saga/docs/cloud-protocol/state.reported.schema.json) input data. In order to provide clarity in this data transition, the following JSON was created; where keys represent the variable name in the `nRF Asset Tracker` module, values are the name in the `firmware` module and comments are how the object looks like in the `LwM2M definition`.
 
+
+There are some values that were not able to find in this flow transition. Those are documented here: 
 > [missing values](https://github.com/MLopezJ/nRF-Asset-Tracker-through-Coiote-flow/blob/saga/src/missingValues.ts) in json format
 
 ### Data transicion
